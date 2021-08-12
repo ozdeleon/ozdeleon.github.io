@@ -1,1 +1,0 @@
-var arrows=document.getElementById("arrow_bm"),animation=lottie.loadAnimation({container:arrows,renderer:"svg",loop:!1,autoplay:!0,path:"../lottie/data.json"}),tl=new TimelineMax({repeat:1});arrows.addEventListener("mouseenter",function(){tl.to(arrows,.3,{x:0,y:20}).to(arrows,.3,{x:0,y:0})});
