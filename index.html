@@ -12,7 +12,7 @@
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 <!-- Use it like any other HTML element -->
-<model-viewer  ar shadow-intensity="1" src="Miles.glb" alt="A 3D model of an astronaut" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" exposure='3' ar-placement='floor' auto-rotate camera-controls>
+<model-viewer  ar shadow-intensity="1" src="Link.glb" alt="A 3D model of an astronaut" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" exposure='3' ar-placement='floor' auto-rotate camera-controls>
 
     <button slot="ar-button" id="ar-button">
         View in your space
@@ -30,11 +30,6 @@
 <!-- <model-viewer autoplay ar shadow-intensity="1" src="cube.glb" alt="A 3D model of an astronaut" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls></model-viewer> -->
 
 <style>
-     model-viewer{
-         position: relative;
-         margin: 0 auto;
-         height: 100vw;
-         width: 100%;}
 
   /* This keeps child nodes hidden while the element loads */
   :not(:defined) > * {
@@ -42,8 +37,13 @@
   }
 
   model-viewer {
-    background-color: #eee;
-    overflow-x: hidden;
+
+    background-color: tomato;
+    width: 100%;
+    height: 100vw;
+    padding: 100px 0;
+
+    /* overflow-x: hidden; */
     --poster-color: #eee;
   }
 
