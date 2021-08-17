@@ -1,0 +1,81 @@
+{
+    "uri": "Miles-Test.glb",
+    "mimeType": "model/gltf-binary",
+    "validatorVersion": "2.0.0-dev.3.5",
+    "validatedAt": "2021-08-17T03:22:36.385Z",
+    "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+            {
+                "code": "UNUSED_OBJECT",
+                "message": "This object may be unused.",
+                "severity": 2,
+                "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            }
+        ],
+        "truncated": false
+    },
+    "info": {
+        "version": "2.0",
+        "generator": "Marmoset Toolbag 4.03",
+        "extensionsUsed": [
+            "KHR_texture_transform"
+        ],
+        "resources": [
+            {
+                "pointer": "/buffers/0",
+                "mimeType": "application/gltf-buffer",
+                "storage": "glb",
+                "byteLength": 484344
+            },
+            {
+                "pointer": "/images/0",
+                "mimeType": "image/jpeg",
+                "storage": "buffer-view",
+                "image": {
+                    "width": 1024,
+                    "height": 1024,
+                    "format": "rgb",
+                    "bits": 8
+                }
+            },
+            {
+                "pointer": "/images/1",
+                "mimeType": "image/jpeg",
+                "storage": "buffer-view",
+                "image": {
+                    "width": 1024,
+                    "height": 1024,
+                    "format": "rgb",
+                    "bits": 8
+                }
+            },
+            {
+                "pointer": "/images/2",
+                "mimeType": "image/jpeg",
+                "storage": "buffer-view",
+                "image": {
+                    "width": 1024,
+                    "height": 1024,
+                    "format": "rgb",
+                    "bits": 8
+                }
+            }
+        ],
+        "animationCount": 0,
+        "materialCount": 2,
+        "hasMorphTargets": false,
+        "hasSkins": false,
+        "hasTextures": true,
+        "hasDefaultScene": true,
+        "drawCallCount": 2,
+        "totalVertexCount": 4048,
+        "totalTriangleCount": 6952,
+        "maxUVs": 1,
+        "maxInfluences": 0,
+        "maxAttributes": 4
+    }
+}
